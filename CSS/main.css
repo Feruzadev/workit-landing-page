@@ -1,0 +1,43 @@
+@import url(./fonts.css);
+
+:root {
+    --Dark-Purple: #24053E;
+    --Eucaplyptus:#44FFA1;
+    --Davys-Grey: #584D62;
+    --Ghost-White: #FCF8FF;
+    --White: #FFF;
+    --ffmanrope: "Manrope";
+    --fffraunces: "Fraunces";
+
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Manrope";
+}
+
+.all-btn {
+    width: 190px;
+    height: 61px;
+    background: var(--Eucaplyptus);
+    color: var(--Dark-Purple);
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+
+}
