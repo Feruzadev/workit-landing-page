@@ -2,7 +2,7 @@
 
 :root {
     --Dark-Purple: #24053E;
-    --Eucaplyptus:#44FFA1;
+    --Eucaplyptus: #44FFA1;
     --Davys-Grey: #584D62;
     --Ghost-White: #FCF8FF;
     --White: #FFF;
@@ -11,11 +11,12 @@
 
 }
 
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
@@ -26,6 +27,7 @@ ul {
 
 body {
     font-family: "Manrope";
+    background-color: var(--Ghost-White);
 }
 
 .all-btn {
@@ -40,4 +42,231 @@ body {
     line-height: 32px;
     letter-spacing: -0.18px;
 
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header-hero {
+    width: 100%;
+    height: 730px;
+    background-color: var(--Dark-Purple);
+}
+
+.header {
+    padding-top: 57px;
+
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo-image {
+    width: 95.762px;
+    height: 24.608px;
+}
+
+.site-header__text {
+    color: var(--White, #FFF);
+    font-family: var(--ffmanrope);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    transition: .5s;
+
+}
+
+.site-header__text:hover {
+    color: var(--Eucaplyptus);
+    border-bottom: 2px solid var(--Eucaplyptus);
+
+}
+
+.site-hero {}
+
+.container1 {
+    margin: auto;
+}
+
+.site-hero__decs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+
+}
+
+.site-hero__title {
+    width: 635px;
+    color: var(--White);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Fraunces 144pt";
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 37px;
+
+}
+
+.site-hero__title2 {
+    border-bottom: 3px solid var(--Eucaplyptus);
+    width: max-content;
+
+}
+
+.site-hero__btn {}
+
+.btn {
+    width: 161px;
+    height: 61px;
+    text-align: center;
+    padding-top: 13px;
+    transition: .1s;
+}
+
+.btn:hover {
+    background-color: var(--Dark-Purple);
+    color: var(--Eucaplyptus);
+}
+
+.btn:active {
+    opacity: .6s;
+}
+
+.site-hero__image {
+    margin-top: 46px;
+}
+
+
+.main {}
+
+.container {}
+
+.main-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    
+
+}
+
+.main-card {
+    text-align: center;
+    padding-left: 13px;
+
+}
+
+.main-name {
+    margin: auto;
+    width: 56px;
+    height: 56px;
+    border-radius: 30.5px;
+    border: 1px solid var(--Davys-Grey);
+    color: var(--Dark-Purple);
+    text-align: center;
+    font-family: "Fraunces 144pt";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 56px;
+
+
+}
+
+.main-desc {
+    width: 354px;
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-family: "Fraunces 144pt";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 28px;
+}
+
+.main-text {
+    width: 354px;
+    color: var(--Dark-Purple, #24053E);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.main-test {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 143px;
+    margin-bottom: 62px;
+    position: relative;   
+}
+
+.main-image {
+    border-radius: 50%;
+    background-color: var(--Eucaplyptus);
+    width: 450.287px;
+    height: 453px;
+    position: absolute;
+    
+    
+}
+
+.main-section-card {
+    width: 730px;
+    height: 413px;
+    background: var(--Dark-Purple);
+    padding-left: 64px;
+    padding-top: 64px;
+    position: absolute;
+    top: 140px;
+    left: 382px;
+}
+   
+
+.main-section-title {
+    color: var(--White);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Fraunces 144pt";
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 32px;
+}
+
+.main-section-text {
+    width: 602px;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.main-btn {
+    padding-top: 13px;
+  
+}
+
+.footer {
+  
+}
+.container {
+}
+.footer-logo {
+    margin: auto;
+    margin-top: 621px;
+    padding-bottom: 110px;
 }
