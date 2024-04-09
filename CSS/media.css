@@ -1,0 +1,7 @@
+@media (max-width:768px) {
+    .site-hero__bg-img {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
